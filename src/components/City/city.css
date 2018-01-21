@@ -1,0 +1,38 @@
+.city {
+  background: #fafafa;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 16px 32px 16px 0;
+  max-width: 100%;
+  min-width: 200px;
+  padding: 16px 20px;
+  text-align: left;
+  width: 300px;
+}
+
+.city-icon {
+  display: block;
+  margin: 16px auto;
+}
+
+.city-name {
+  font-size: 1.6em;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.city-temperature-label {
+  display: inline-block;
+  min-width: 50%;
+  padding-right: 10px;
+}
+
+.city-temperature-value {
+  font-weight: bold;
+}
+
+.city-weather-text {
+  font-weight: bold;
+  margin-top: 8px;
+}
