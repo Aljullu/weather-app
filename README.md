@@ -1,7 +1,7 @@
 # Weather App
 
 Weather App that lets the user introduce a natural language query and
-it parses it to return relevant results after fetching data in AccuWeather.
+parses it to return relevant results after fetching data in AccuWeather.
 
 Some accepted queries are:
 
@@ -11,9 +11,9 @@ Some accepted queries are:
 
 Those can be combined with three operators:
 
-* _and_ (including _but_ and _as well as_)
+* _and_ (including two synonyms: _but_ and _as well as_)
 * _or_
-* _but_
+* _not_
 
 These way, natural language queries like _cold but not freezing and cloudy_ are
 understood.
@@ -39,3 +39,17 @@ npm start
 ```sh
 npm run doc
 ```
+
+# Screenshots
+
+Main page:
+
+<img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/main-page.png" alt="" width="436" height="399" />
+
+Natural Language Processing:
+
+<img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/natural-language-processing.png" alt="" width="436" height="399" />
+
+Smart suggestions
+
+<img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/smart-suggestions.png" alt="" width="436" height="399" />
