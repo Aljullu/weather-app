@@ -50,6 +50,6 @@ Natural Language Processing:
 
 <img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/natural-language-processing.png" alt="" width="436" height="399" />
 
-Smart suggestions
+Smart suggestions:
 
 <img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/smart-suggestions.png" alt="" width="436" height="399" />
