@@ -15,7 +15,7 @@ Those can be combined with three operators:
 * _or_
 * _not_
 
-These way, natural language queries like _cold but not freezing and cloudy_ are
+This way, natural language queries like _cold but not freezing and cloudy_ are
 understood.
 
 Tech stack:
