@@ -16,7 +16,7 @@ describe('App', function() {
   /** @test {App#render} */
   it('should render without problems', function() {
     const store = createStore(() =>
-      ({ counter: 0, weatherData: [] }), applyMiddleware(thunk));
+      ({ weatherData: [] }), applyMiddleware(thunk));
     const provider = ReactTestUtils.renderIntoDocument(
       <Provider store={store}>
         <App />
