@@ -15,7 +15,7 @@ Those can be combined with three operators:
 * _or_
 * _not_
 
-These way, natural language queries like _cold but not freezing and cloudy_ are
+This way, natural language queries like _cold but not freezing and cloudy_ are
 understood.
 
 Tech stack:
@@ -50,6 +50,6 @@ Natural Language Processing:
 
 <img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/natural-language-processing.png" alt="" width="436" height="399" />
 
-Smart suggestions
+Smart suggestions:
 
 <img src="https://raw.githubusercontent.com/Aljullu/weather-app/master/screenshots/smart-suggestions.png" alt="" width="436" height="399" />
