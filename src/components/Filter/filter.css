@@ -51,4 +51,19 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
   margin: 8px;
   padding: 8px 12px;
+  transition: all .3s;
+}
+
+.filter-suggestion:hover,
+.filter-suggestion:focus {
+  transform: rotate(-5deg);
+}
+
+.filter-suggestion:nth-child(2n):hover,
+.filter-suggestion:nth-child(2n):focus {
+  transform: rotate(5deg);
+}
+
+.filter-suggestion:active {
+  box-shadow: 0 3px 6px #000;
 }
