@@ -9,7 +9,7 @@ import Cities from 'src/containers/Cities/Cities.jsx';
 /**
  * App Root Component, contains the app
  */
-class App extends React.Component {
+export class App extends React.Component {
   componentDidMount() {
     const { dispatch } = this.props;
 

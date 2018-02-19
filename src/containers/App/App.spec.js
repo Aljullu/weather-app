@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 
-import App from './App.jsx';
+import { App } from './App.jsx';
 
 const {
   findRenderedComponentWithType
@@ -17,9 +17,10 @@ describe('App', function() {
   it('should render without problems', function() {
     const store = createStore(() =>
       ({ weatherData: [] }), applyMiddleware(thunk));
+
     const provider = ReactTestUtils.renderIntoDocument(
       <Provider store={store}>
-        <App />
+        <App dispatch={() => null} />
       </Provider>
     );
 
