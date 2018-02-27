@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import './city.css';
 
-const getWeatherIcon = function(weatherIcon, weatherText) {
+const getWeatherIcon = function(weatherIcon, weatherText, scrollPosition) {
   if (!weatherIcon) {
     return null;
   }
@@ -12,12 +14,13 @@ const getWeatherIcon = function(weatherIcon, weatherText) {
   const weatherIconUrl = 'https://developer.accuweather.com/sites/default/files/' + weatherIconNumber + '-s.png';
 
   return (
-    <img
+    <LazyLoadImage
       alt={weatherText}
       className="city-icon"
-      height="45"
+      height={45}
+      scrollPosition={scrollPosition}
       src={weatherIconUrl}
-      width="75" />);
+      width={75} />);
 };
 
 /**
@@ -27,8 +30,9 @@ const getWeatherIcon = function(weatherIcon, weatherText) {
  * @param {object} param.values - weather values relative to the city
  * @return {object} City component
  */
-const City = ({ values }) => {
-  const weatherIcon = getWeatherIcon(values.WeatherIcon, values.WeatherText);
+const City = ({ values, scrollPosition }) => {
+  const weatherIcon = getWeatherIcon(values.WeatherIcon,
+    values.WeatherText, scrollPosition);
 
   return (
     <div className="city">

@@ -29,7 +29,8 @@ describe('City', function() {
               Value: 68
             }
           }
-        }} />
+        }}
+        scrollPosition={{ x: 0, y: 0 }} />
       </Wrapper>);
 
     const img = scryRenderedDOMComponentsWithTag(wrapper, 'img');
@@ -54,7 +55,8 @@ describe('City', function() {
               Value: 68
             }
           }
-        }} />
+        }}
+        scrollPosition={{ x: 0, y: 0 }} />
       </Wrapper>);
 
     const img = scryRenderedDOMComponentsWithTag(wrapper, 'img');
