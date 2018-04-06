@@ -20,7 +20,8 @@ const getWeatherIcon = function(weatherIcon, weatherText, scrollPosition) {
       height={45}
       scrollPosition={scrollPosition}
       src={weatherIconUrl}
-      width={75} />);
+      width={75} />
+  );
 };
 
 /**
