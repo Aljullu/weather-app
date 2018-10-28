@@ -54,4 +54,8 @@ Filter.propTypes = {
   suggestions: PropTypes.arrayOf(PropTypes.string)
 };
 
+Filter.defaultProps = {
+  suggestions: []
+};
+
 export default Filter;
