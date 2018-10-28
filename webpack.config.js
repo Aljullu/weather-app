@@ -8,6 +8,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
+  mode: 'production',
   entry: ['babel-polyfill',
     './src/index.js'],
   resolve: {
